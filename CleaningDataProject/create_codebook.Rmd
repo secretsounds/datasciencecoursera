@@ -1,0 +1,23 @@
+Codebook Variables:
+
+----------------------------------------------------------------------------------------------------------------------
+| Variable name        | Description                                                                                 |
+|----------------------|----------------------------------------------------------------------------------------------
+|subject               | Subject ID (Persion who performed the activity.) Range is from 1 to 30.                     |
+|activity              | Activity name.                                                                              |
+|feature_domain        | Time domain signal or frequency domain signal (time or freq).                               |
+|feature_instrument    | Instrument (accelerometer or gyroscope).                                                    |
+|feature_acceleration  | Acceleration signal type (body or gravity).                                                 |
+|feature_variable      | Variable (mean or sd).                                                                      |
+|feature_jerk          | Jerk signal.                                                                                |
+|feature_magnitude     | Magnitude of the signals calculated using the Euclidean norm.                               |
+|feature_axis          | 3-axial signals in the X, Y and Z directions (X, Y, or Z).                                  |
+|count                 | Data points Count to compute `average`.                                                     |
+|average               | Average of each variable for each activity and each subject.                                |
+----------------------------------------------------------------------------------------------------------------------
+
+Dataset Structure:
+  
+```{r}
+str(tidy_data)
+```
